@@ -25,9 +25,9 @@
 
         <!--jdbc execute sql config-->
         <jdbc.driver>com.mysql.jdbc.Driver</jdbc.driver>
-        <jdbc.url>jdbc:mysql://localhost:3306/oauth2_shiro_test?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8</jdbc.url>
-        <jdbc.user>andaily</jdbc.user>
-        <jdbc.pass>andaily</jdbc.pass>
+        <jdbc.url>jdbc:mysql://localhost:3306/oauth2_shiro?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8</jdbc.url>
+        <jdbc.user>root</jdbc.user>
+        <jdbc.pass>123456</jdbc.pass>
         <!--if do not use execute sql, change the value to true-->
         <!--<jdbc.execute.skip>false</jdbc.execute.skip>-->
         <test.skip>false</test.skip>
@@ -210,7 +210,7 @@
         <dependency>
             <groupId>org.apache.oltu.oauth2</groupId>
             <artifactId>org.apache.oltu.oauth2.resourceserver-filter</artifactId>
-            <version>${oltu.version}</version>
+            <version>1.0.2</version>
         </dependency>
 
 
